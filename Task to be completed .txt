@@ -1,0 +1,29 @@
+You are required to develop a Python script to automate the retrieval of information from the website ikman.lk. The goal is to search for the motorcycle model "CT-100" and capture the first 50 results' prices, location, years of manufacture, and mileage (if available). Save this information as a CSV file according to the specified format: Row Number, Location, Price, Year of Manufacture, Mileage. If any information (except for price and location) is unavailable for a particular listing, leave it as blank in the CSV file.
+ 
+Additionally, implement a function to calculate the average vehicle price by location and print this information in the email body. Attach the generated CSV file to the email.
+ 
+Requirements:
+ 
+Develop a Automation using any python :
+ 
+Navigates to ikman.lk
+Searches for the motorcycle model "ct100"
+Captures the required information from the first 50 results
+Saves the information as a CSV file with the specified format
+Handle cases where certain information like mileage is unavailable for a listing and leave it blank in the CSV file.
+ 
+Implement a function to calculate the average vehicle price by location.
+ 
+Generate an email with the average vehicle price by location included in the body and attach the  saved CSV file.
+ 
+Evaluation Criteria:
+ 
+Proper handling of web automation tools .
+Correct data extraction and formatting into a CSV file.
+Accurate calculation of the average vehicle price by location.
+Clear and well-commented code.
+Proper error handling and graceful exit in case of failures.
+Efficient and optimized code.
+Submission:
+ 
+Please submit the source code along with any necessary instructions for running it. Ensure that the development meets all the requirements mentioned above.
